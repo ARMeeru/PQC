@@ -1,0 +1,52 @@
+# Compiled source files
+*.o
+*.out
+*.a
+*.so
+*.exe
+
+# Default executable name on many systems
+a.out
+
+# macOS and debug files
+*.dSYM/
+vgcore.*
+
+# Editor and system backup files
+*~
+*.swp
+.DS_Store
+*.tmp
+
+# Build directories
+build/
+bin/
+obj/
+
+# CMake specific
+CMakeFiles/
+CMakeCache.txt
+cmake_install.json
+
+# IDE specific folders
+.vscode/
+.idea/
+*.sublime-*
+
+# Dependency management
+deps/
+vendor/
+
+# Testing and benchmarking outputs
+test-results/
+benchmark-results/
+
+# Documentation generated files
+docs/build/
+
+# Potential cryptographic test vectors or keys (never commit real keys!)
+*.pem
+*.key
+*.der
+*.csr
+test-vectors/
